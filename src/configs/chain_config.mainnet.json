@@ -1,24 +1,24 @@
 {
-  "title": "Comdex Block Explorer",
-  "network": "comdex-1",
+  "title": "Terramirum Chain Block Explorer",
+  "network": "terramirum",
   "icon": "/images/icon.svg",
   "logo": {
     "default": "/images/logo.svg"
   },
   "prefix": {
-    "consensus": "comdexvalcons",
-    "validator": "comdexvaloper",
-    "account": "comdex"
+    "consensus": "trmvalcons",
+    "validator": "trmvaloper",
+    "account": "trm"
   },
   "genesis": {
-    "time": "2021-07-13T08:00:00",
-    "height": 1
+    "time": "2023-07-03T14:05:58",
+    "height": 1000
   },
-  "primaryTokenUnit": "ucmdx",
-  "votingPowerTokenUnit": "ucmdx",
+  "primaryTokenUnit": "trm",
+  "votingPowerTokenUnit": "trm",
   "tokenUnits": {
-    "ucmdx": {
-      "display": "cmdx",
+    "trm": {
+      "display": "trm",
       "exponent": 6
     }
   },
